@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Spotify</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" href="/Favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Play The Music </h1>
+            <hr id="line" />
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="songs_images/br.jpg" alt="1">
+                    <span class="songName">Baras Baras</span>
+                    <span class="songListPlay"><span id="timeStamp">03:19</span><i id="0"
+                            class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="songs_images/na.jpg" alt="1">
+                    <span class="songName">Naino Ne Bandhi</span>
+                    <span   class="songListPlay"><span id="timeStamp">04:09</span><i id="1"
+                            class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="songs_images/dil.jpg" alt="1">
+                    <span class="songName">Dil Jhoom</span>
+                    <span class="songListPlay"><span id="timeStamp">05:20</span><i id="2" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="songs_images/jaan.jpg" alt="1">
+                    <span class="songName">Jaan Ban gye</span>
+                    <span class="songListPlay"><span id="timeStamp">03:43</span><i id="3" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="songs_images/anjaane.jpg" alt="1">
+                    <span class="songName">Apna Mujhe Tu Lga</span>
+                    <span class="songListPlay"><span id="timeStamp">06:24</span><i id="4" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="songs_images/he.jpg" alt="1">
+                    <span class="songName">Heeriye</span>
+                    <span class="songListPlay"><span id="timeStamp">03:19</span><i id="5" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="songs_images/ra.jpg" alt="1">
+                    <span class="songName">Raataan Lambiyan</span>
+                    <span class="songListPlay"><span id="timeStamp">03:50</span><i id="6" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-fast" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-fast" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="56px"   alt="" id="gif" ><span id="masterSongName">Baras Baras</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6043252bb6.js" crossorigin="anonymous"></script>
+   <script src="index.js"></script>
+</body>
+
+</html>

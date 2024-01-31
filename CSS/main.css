@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@700&family=Work+Sans:wght@500&display=swap");
+body {
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(75, 131, 129) 94%);
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(11, 25, 22);
+  color: rgb(254, 255, 255);
+  align-items: center;
+}
+
+li {
+  padding: 0 12px;
+  font-weight: 600;
+}
+
+.brand img {
+  border: 1px solid transparent;
+  width: 44px;
+  padding: 0 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  border: 2px solid transparent;
+  min-height: 70vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 34px;
+  font-family: "Work Sans", sans-serif;
+  background: linear-gradient(0deg, rgb(178, 178, 182) 0%, rgb(45, 171, 153) 94%);
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: rgb(255, 250, 250);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myProgressBar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#line {
+  margin: 12px;
+  width: 68rem;
+  position: relative;
+  right: 45px;
+}
+
+.songItemContainer {
+  margin-top: 40px;
+}
+
+.songItem {
+  height: 21px;
+  display: flex;
+  border-radius: 50px;
+  background: linear-gradient(0deg, rgb(222, 222, 222) 0%, rgb(13, 123, 105) 94%);
+  width: 68vw;
+  color: black;
+  margin: 14px 0;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.songListPlay {
+  position: relative;
+  right: 20px;
+}
+
+.songListPlay i {
+  cursor: pointer;
+}
+
+#timeStamp {
+  margin: 0 10px;
+}
+
+.songItem img {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  position: relative;
+  bottom: 4.6px;
+  left: 15.5px;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Work Sans", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}/*# sourceMappingURL=main.css.map */
